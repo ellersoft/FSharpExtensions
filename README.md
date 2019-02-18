@@ -10,6 +10,8 @@ Additionally, we will accept contributions quite liberally &mdash; as well as pr
 FSharpExtensions (F# Extensions)
 ---
 
+NuGet: [Ellersoft.FSharpExtensions](https://www.nuget.org/packages/Ellersoft.FSharpExtensions/)
+
 This project is a collection of extensions to F# modules that are *entirely generic*, that is, you can use them in many situations that are not specific to any use-cases.
 
 * There is a `Collections` folder, which contains extensions to the `Array`, `List`, and `Seq` collections.
@@ -21,6 +23,8 @@ This project is .NET Standard 1.6 compatible, thus it may be used in .NET Core 1
 FSharpExtensions.Applications (F# Extensions Applications)
 ---
 
+NuGet: [Ellersoft.FSharpExtensions.Applications](https://www.nuget.org/packages/Ellersoft.FSharpExtensions.Applications/)
+
 This project is a collection of extensions to F# modules that are *less generic*, that is, you'll likely be working in a specific situation to need any of them.
 
 * The `Excel` module which provides some common interactions with Excel (converting column names to numbers, for example).
@@ -31,6 +35,8 @@ This project is .NET Standard 2.0 compatible, thus it may be used in .NET Core 1
 
 FSharpExtensions.Input (F# Extensions Input)
 ---
+
+NuGet: [Ellersoft.FSharpExtensions.Input](https://www.nuget.org/packages/Ellersoft.FSharpExtensions.Input/)
 
 This project is a collection of functions for use with F# that allow for a more concise and pragmatic approach to consuming user input via Command Line (CLI) interfaces.
 
