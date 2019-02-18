@@ -10,7 +10,7 @@ Additionally, we will accept contributions quite liberally &mdash; as well as pr
 FSharpExtensions (F# Extensions)
 ---
 
-This project is a collection of extensions to F# modules that are *entirely generic*, that is, you can use them in many situations that are not specific to any use-cases. Extensions do not require an `open`.
+This project is a collection of extensions to F# modules that are *entirely generic*, that is, you can use them in many situations that are not specific to any use-cases.
 
 * There is a `Collections` folder, which contains extensions to the `Array`, `List`, and `Seq` collections.
 * There is a `Primitives` folder, which contains extensions to other non-collection primitives (`Object`, `Char`, `String`, `Int`, `Option`, `Tuple`, and `Date`, as of this writing).
