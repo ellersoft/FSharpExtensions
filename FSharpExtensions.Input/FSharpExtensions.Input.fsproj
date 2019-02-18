@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.6</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Ellersoft.FSharpExtensions.Input</PackageId>
+        <Authors>Ellersoft LLC</Authors>
+        <Description>A collection of functions for use with F# that allow for a more concise and pragmatic approach to consuming user input via Command Line (CLI) interfaces.</Description>
+        <Copyright>Copyright (c) 2019 Ellersoft LLC</Copyright>
+        <PackageProjectUrl>https://github.com/ellersoft-llc/FSharpExtensions</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Read.fs" />
+        <Compile Include="Optional.Read.fs" />
+    </ItemGroup>
+
+</Project>

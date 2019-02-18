@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>FSharpExtensions.Application</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Ellersoft.FSharpExtensions.Applications</PackageId>
+        <Authors>Ellersoft LLC</Authors>
+        <Description>A collection of extensions to F# modules that are less generic, that is, you'll likely be working in a specific situation to need any of them.</Description>
+        <Copyright>Copyright (c) 2019 Ellersoft LLC</Copyright>
+        <PackageProjectUrl>https://github.com/ellersoft-llc/FSharpExtensions</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Assembly.fs" />
+        <Compile Include="Path.fs" />
+        <Compile Include="Directory.fs" />
+        <Compile Include="Excel.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FSharpExtensions\FSharpExtensions.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Reflection" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>

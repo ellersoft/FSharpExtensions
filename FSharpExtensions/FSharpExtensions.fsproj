@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>Ellersoft.FSharpExtensions</PackageId>
+    <Description>A collection of extensions to F# modules that are entirely generic, that is, you can use them in many situations that are not specific to any use-cases.</Description>
+    <Copyright>Copyright (c) 2019 Ellersoft LLC</Copyright>
+    <PackageProjectUrl>https://github.com/ellersoft-llc/FSharpExtensions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Ellersoft LLC</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Collections\Array.fs" />
+    <Compile Include="Collections\List.fs" />
+    <Compile Include="Collections\Seq.fs" />
+    <Compile Include="Primitives\Object.fs" />
+    <Compile Include="Primitives\Char.fs" />
+    <Compile Include="Primitives\String.fs" />
+    <Compile Include="Primitives\Int.fs" />
+    <Compile Include="Primitives\Option.fs" />
+    <Compile Include="Primitives\Tuple.fs" />
+    <Compile Include="Primitives\Date.fs" />
+    <Compile Include="Patterns\Above.fs" />
+    <Compile Include="Patterns\AboveExc.fs" />
+    <Compile Include="Patterns\Below.fs" />
+    <Compile Include="Patterns\BelowExc.fs" />
+    <Compile Include="Patterns\Between.fs" />
+    <Compile Include="Patterns\BetweenExc.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>
