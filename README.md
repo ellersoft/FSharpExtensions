@@ -31,6 +31,7 @@ This project is .NET Standard 2.0 compatible, thus it may be used in .NET Core 1
 
 FSharpExtensions.Input (F# Extensions Input)
 ---
+
 This project is a collection of functions for use with F# that allow for a more concise and pragmatic approach to consuming user input via Command Line (CLI) interfaces.
 
 * The `Read` module which provides some common functions for reading basic .NET / F# types:
