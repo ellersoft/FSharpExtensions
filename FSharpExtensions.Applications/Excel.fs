@@ -1,5 +1,4 @@
 module FSharpExtensions.Applications.Excel
-open FSharpExtensions
 
 /// Allows piping of the subtraction operator as the second argument: sub a b is equivalent to b - a.
 let inline private sub b a = a - b
