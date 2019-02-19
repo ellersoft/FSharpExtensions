@@ -14,10 +14,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Include="Optional.Read.fs" />
       <Compile Include="Generic\Read.fs" />
       <Compile Include="Generic\Optional.Read.fs" />
       <Compile Include="Read.fs" />
+      <Compile Include="Optional.Read.fs" />
     </ItemGroup>
 
 </Project>
