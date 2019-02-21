@@ -11,6 +11,7 @@
         <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
+        <PackageVersion>1.1.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
