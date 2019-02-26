@@ -5,13 +5,13 @@
     <PackageId>Ellersoft.FSharpExtensions</PackageId>
     <Description>A collection of extensions to F# modules that are entirely generic, that is, you can use them in many situations that are not specific to any use-cases.</Description>
     <Copyright>Copyright (c) 2019 Ellersoft LLC</Copyright>
-    <PackageProjectUrl>https://github.com/ellersoft-llc/FSharpExtensions</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ellersoft/FSharpExtensions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ellersoft/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/ellersoft/FSharpExtensions</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ellersoft LLC</Authors>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

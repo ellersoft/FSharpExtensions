@@ -7,11 +7,11 @@
         <Authors>Ellersoft LLC</Authors>
         <Description>A collection of functions for use with F# that allow for a more concise and pragmatic approach to consuming user input via Command Line (CLI) interfaces.</Description>
         <Copyright>Copyright (c) 2019 Ellersoft LLC</Copyright>
-        <PackageProjectUrl>https://github.com/ellersoft-llc/FSharpExtensions</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/ellersoft-llc/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/ellersoft-llc/FSharpExtensions</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/ellersoft/FSharpExtensions</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/ellersoft/FSharpExtensions/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ellersoft/FSharpExtensions</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <PackageVersion>1.1.0</PackageVersion>
+        <PackageVersion>1.1.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
