@@ -65,3 +65,7 @@ let take c = explode >> Array.take c >> implode
 
 /// Returns the substring that starts at the beginning of the string and consists of the specified number of characters. Does not error if the string is too short.
 let truncate c = explode >> Array.truncate c >> implode
+
+/// Converts a string to a byte-array using the specified encoding, or if none is specified uses `System.Text.UTF8Encoding(false)` (UTF-8 encoding without BOM).
+let getBytes (encoding : System.Text.Encoding option) : string -> byte [] =
+    (encoding |> Option.defaultValue (System.Text.UTF8Encoding(false) :> System.Text.Encoding)).GetBytes
