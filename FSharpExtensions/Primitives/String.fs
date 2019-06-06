@@ -74,3 +74,6 @@ let truncate c = explode >> Array.truncate c >> implode
 /// Converts a string to a byte-array using the specified encoding, or if none is specified uses `System.Text.UTF8Encoding(false)` (UTF-8 encoding without BOM).
 let getBytes (encoding : System.Text.Encoding option) : string -> byte [] =
     (encoding |> Option.defaultValue (System.Text.UTF8Encoding(false) :> System.Text.Encoding)).GetBytes
+
+/// Takes a substring out of a larger string, using System.String.Substring.
+let subStr l s (str : string) = str.Substring(s, l)
