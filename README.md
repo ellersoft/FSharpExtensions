@@ -17,6 +17,7 @@ This project is a collection of extensions to F# modules that are *entirely gene
 * There is a `Collections` folder, which contains extensions to the `Array`, `List`, and `Seq` collections.
 * There is a `Primitives` folder, which contains extensions to other non-collection primitives (`Object`, `Char`, `String`, `Int`, `Option`, `Tuple`, and `Date`, as of this writing).
 * There is a `Patterns` folder, which contains extensions to be used in `match` patterns (`Between`, `Above`, `Below`, `BetweenExc`, `AboveExc`, and `BelowExc`, as of this writing).
+* There is a `System` folder, which contains extensions and more friendly usage-wrappers for builtin `.NET` components.
 
 This project is .NET Standard 1.6 compatible, thus it may be used in .NET Core 1.0+, or .NET Framework 4.6.1+.
 
