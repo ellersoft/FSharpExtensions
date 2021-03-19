@@ -1,5 +1,6 @@
 ﻿module String
 open System
+
 /// Gets the char array of a string.
 let explode : string -> char array = Seq.toArray
 /// Assembles a string from a char array.
@@ -31,10 +32,12 @@ let lettersOnly = filterStr Char.IsLetter
 /// Indicates if a string begins with a substring.
 let startsWith v (str : string) = v |> str.StartsWith
 
+let private parseIndex = function | -1 -> None | v -> Some v
+
 /// Finds the first occurrence of the substring starting the search at the specified index.
-let indexOf (v : string) (start : int) (str : string) = str.IndexOf(v, start) |> function | -1 -> None | v -> Some v
+let indexOf (v : string) (start : int) (str : string) = str.IndexOf(v, start) |> parseIndex
 /// Finds the first occurrence of the character starting the search at the specified index.
-let indexOfC (v : char) (start : int) (str : string) = str.IndexOf(v, start) |> function | -1 -> None | v -> Some v
+let indexOfC (v : char) (start : int) (str : string) = str.IndexOf(v, start) |> parseIndex
 
 /// Same as String.PadLeft(i, c)
 let padLeft c i (str : string) = (c, i) |> str.PadLeft
