@@ -1,4 +1,5 @@
 ﻿module Option
+
 /// Indicates if the option has a value that is equal to the provided value. If the option is `None` then the result is `true`.
 let equalst value = function | Some optValue -> optValue = value | None -> true
 /// Indicates if the option has a value that is equal to the provided value. If the option is `None` then the result is `false`.

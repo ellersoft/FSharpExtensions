@@ -3,7 +3,7 @@ module FSharpExtensions.Applications.Excel
 /// Allows piping of the subtraction operator as the second argument: sub a b is equivalent to b - a.
 let inline private sub b a = a - b
 
-/// Returns the integer value of a character if the charater is an alphabet character, or a number. (If char is between 'A' and 'Z', returns char - 'A' + 1, for example.)
+/// Returns the integer value of a character if the character is an alphabet character, or a number. (If char is between 'A' and 'Z', returns char - 'A' + 1, for example.)
 let letterVal (c : char) =
     let f (c : char) v = 1 + v - int c
     match int c with

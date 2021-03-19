@@ -1,6 +1,8 @@
 ﻿module Array
+
 /// Turns a single thing into an array of one element.
 let initOne<'a> (x : 'a) : 'a array = [|x|]
+
 /// Takes an input array of arrays and returns an output of every possible combination. E.g.: [|[|a|]; [|b; c|]|] |> getCombinations = [|[|a; b|]; [|a; c|]|]
 let rec getCombinations<'a> (input : 'a array array) : 'a array array =
     let currentArray = input.[0]

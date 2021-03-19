@@ -1,4 +1,5 @@
 ﻿module Char
+
 /// Returns true if a char is equal to the double-quote (").
 let isDQuote = (=) '"'
 /// Returns true if a char is equal to the single-quote (').

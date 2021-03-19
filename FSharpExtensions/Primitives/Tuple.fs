@@ -1,4 +1,5 @@
 ﻿module Tuple
+
 /// Transforms each item in a tuple of 2 items by the supplied function. (I.e., `(1, 2) |> Tuple.map2 float` returns `(1.0, 2.0)`.)
 let map2 fn (v1, v2) = (v1 |> fn, v2 |> fn)
 /// Transforms each item in a tuple of 3 items by the supplied function. (I.e., `(1, 2, 3) |> Tuple.map3 float` returns `(1.0, 2.0, 3.0)`.)
